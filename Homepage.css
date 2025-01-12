@@ -63,3 +63,23 @@ p {
   line-height: 1.8;
   margin-bottom: 15px;
 }
+
+.navigate-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.navigate-button:hover {
+  background-color: #0056b3;
+}
+.game-title {
+  margin-top: 25px;
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+}
