@@ -1,7 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +35,14 @@ h1 {
     border-radius: 5px;
 }
 
+box.guessed {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .prediction-area {
     margin-bottom: 15px;
 }
@@ -63,6 +69,18 @@ h1 {
 .submit-button:hover {
     background-color: #a65400;
 }
+
+.reset-button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    display: none;
+} 
 
 .scores-lives {
     margin-top: 20px;
