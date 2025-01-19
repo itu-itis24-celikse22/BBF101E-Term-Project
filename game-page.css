@@ -35,7 +35,7 @@ h1 {
     border-radius: 5px;
 }
 
-box.guessed {
+.box.guessed {
     background-color: transparent;
     border: none;
     display: flex;
